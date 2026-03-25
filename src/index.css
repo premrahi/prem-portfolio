@@ -1,0 +1,90 @@
+  @import "tailwindcss";
+
+  .particles-bg {
+    position: relative;
+    background-color: #0d1117;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+  .particles-bg > * {
+    position: relative;
+    z-index: 3;
+  }
+
+  .particle {
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    animation: float linear infinite;
+    opacity: 0.6;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+@keyframes float {
+  0% { top: 100%; opacity: 0; }
+  10% { opacity: 0.6; }
+  90% { opacity: 0.6; }
+  100% { top: -10px; opacity: 0; }
+}
+  .shimmer {
+  background: linear-gradient(
+    90deg,
+    #6b7280 0%,
+    #ffffff 50%,
+    #6b7280 100%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  user-select: none;
+  animation: shimmer 4s ease-in-out infinite;
+}
+
+  @keyframes shimmer {
+    0% { background-position: -200% center; }
+    100% { background-position: 200% center; }
+  }
+
+
+  .custom-cursor {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.5s, height 0.5s, background 0.5s, mix-blend-mode 0.5s;
+  mix-blend-mode: difference;
+  
+}
+  .custom-cursor-text {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: white;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.5s, height 0.5s, background 0.5s, mix-blend-mode 0.5s;
+  mix-blend-mode: difference;
+}
+.animated-border {
+  padding: 4px;
+  background: linear-gradient(var(--angle), #ff6b00, #ffffff, #ff6b00);
+  animation: rotate-border 3s linear infinite, morph 6s ease-in-out infinite;
+  width: fit-content;
+}
+
+@keyframes morph {
+  0%   { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  25%  { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+  50%  { border-radius: 50% 60% 30% 40% / 40% 50% 60% 50%; }
+  75%  { border-radius: 40% 50% 60% 30% / 60% 40% 50% 40%; }
+  100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+}
