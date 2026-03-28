@@ -1,4 +1,3 @@
-import React from "react";
 import cpp from "../assets/cpp.svg";
 import python from "../assets/python.svg";
 import js from "../assets/js.svg";
@@ -29,11 +28,13 @@ const badgeClass = " px-3 text-white py-2 mx-2 my-2 ";
 const SkillSet = () => {
   return (
     <>
-      <div className="my-40 mx-20 bg-slate-500/20 rounded-2xl">
+      <div className="my-40 mx-20 bg-slate-500/10 rounded-2xl">
         <div className="mx-4 p-16">
           <h1 className="text-white text-4xl font-semibold">
             Technical <span className="text-purple-400">Skill</span>
           </h1>
+
+          <hr className="my-8 text-gray-500 "></hr>
 
           <div className="">
             <div className="my-5">
@@ -67,6 +68,8 @@ const SkillSet = () => {
                 </span>
               </div>
             </div>
+
+            <hr className="my-8 text-gray-500 "></hr>
 
             <div className="my-5 ">
               <p className="text-white text-xl font-bold my-4">
@@ -103,9 +106,12 @@ const SkillSet = () => {
                 </span>
               </div>
             </div>
+            <hr className="my-8 text-gray-500 "></hr>
 
             <div className="my-5">
-              <p className="text-white text-xl font-bold my-4">Tools & Technologies</p>
+              <p className="text-white text-xl font-bold my-4">
+                Tools & Technologies
+              </p>
               <div className="flex text-center flex-wrap gap-2">
                 <span className={badgeClass}>
                   <img src={git} alt="git" className="w-24" />
@@ -155,7 +161,9 @@ const SkillSet = () => {
               </div>
             </div>
           </div>
+          <hr className="my-8 text-gray-500 "></hr>
         </div>
+
         <div className="shimmer text-center text-lg pb-8">
           <p>
             Also solved 350+ coding problems across platforms like LeetCode,

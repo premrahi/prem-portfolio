@@ -1,0 +1,174 @@
+{
+  "projects": [
+    {
+      "title": "Gulab Jaamun — Food Ordering App",
+      "type": "Frontend Project",
+      "category": "Single Page Application",
+      "deployedOn": "Netlify",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Redux Toolkit",
+        "React Router",
+        "Parcel",
+        "Jest",
+        "Tailwind CSS"
+      ],
+      "tags": [
+        "Single Page Application",
+        "State Management",
+        "Performance Optimization",
+        "Unit Testing",
+        "Client-side Routing"
+      ],
+      "highlights": [
+        {
+          "id": "01",
+          "title": "Architected a scalable SPA",
+          "description": "Built with React + TypeScript, implementing client-side routing via React Router — eliminating full-page reloads and delivering a snappy, app-like browsing experience across menu, cart, and about pages."
+        },
+        {
+          "id": "02",
+          "title": "Engineered global state with Redux Toolkit",
+          "description": "Designed a cart slice with dispatch-action-selector pattern, ensuring predictable, bug-free state updates across the entire app without prop-drilling."
+        },
+        {
+          "id": "03",
+          "title": "Boosted performance via lazy loading & code splitting",
+          "description": "Dynamically imported heavy components so users only download what they need, reducing initial bundle size and improving load times."
+        },
+        {
+          "id": "04",
+          "title": "Shipped with a real test suite",
+          "description": "Used Jest + React Testing Library — wrote unit and integration tests, mocked fetch calls, and wrapped state-driven tests in act() for reliable async coverage."
+        }
+      ],
+      "stats": [
+        { "value": "TypeScript", "label": "74% of codebase" },
+        { "value": "Redux + Context", "label": "Dual state strategy" },
+        { "value": "Tested", "label": "Unit + integration coverage" }
+      ],
+      "links": {
+        "github": "https://github.com/premrahi/gulab-jaamun-food-ordering-app",
+        "live": "https://gulab-jaamun-foods.netlify.app/"
+      },
+      "image": {
+        "path":"gulabjaamunImage"
+      }
+
+    },
+    {
+      "title": "NetflixGPT",
+      "type": "Frontend Project",
+      "category": "AI-Powered Web Application",
+      "deployedOn": "Firebase Hosting",
+      "techStack": [
+        "React",
+        "Redux Toolkit",
+        "Firebase",
+        "Gemini AI",
+        "TMDB API",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "tags": [
+        "AI-Powered Search",
+        "Firebase Auth",
+        "Third-party APIs",
+        "Multi-language",
+        "Custom Hooks",
+        "Production Deployed"
+      ],
+      "highlights": [
+        {
+          "id": "01",
+          "title": "Integrated Google Gemini AI with TMDB",
+          "description": "Users type a natural language prompt, Gemini interprets intent, and the app fetches real movie results from TMDB — bridging AI and live data in one seamless flow."
+        },
+        {
+          "id": "02",
+          "title": "Built end-to-end Firebase authentication",
+          "description": "Sign up, sign in, profile updates, and protected routing with secure session management so unauthenticated users are always redirected appropriately."
+        },
+        {
+          "id": "03",
+          "title": "Engineered reusable custom hooks",
+          "description": "nowPlayingMovies, usePopularMovies, and trailer data hooks cleanly separate data-fetching logic from UI, keeping components lean and the codebase easy to scale."
+        },
+        {
+          "id": "04",
+          "title": "Shipped to production on Firebase Hosting",
+          "description": "Implemented memoization for performance, multi-language support, responsive design via Tailwind, and secured API keys via environment variables — production discipline from day one."
+        }
+      ],
+      "stats": [
+        { "value": "Gemini + TMDB", "label": "Dual API integration" },
+        { "value": "Firebase", "label": "Auth + live deployment" },
+        { "value": "Multi-language", "label": "Internationalization" }
+      ],
+      "links": {
+        "github": "https://github.com/premrahi/NetflixGPT",
+        "live": "https://netflix-gpt-gulabjaamun.web.app/"
+      },
+      "image":{
+        "path" : "netflixImage"
+      }
+    },
+    {
+      "title": "YouTube Clone",
+      "type": "Frontend Project",
+      "category": "Full-featured Web Application",
+      "deployedOn": "",
+      "techStack": [
+        "React 19",
+        "Redux Toolkit",
+        "React Router DOM",
+        "Tailwind CSS",
+        "YouTube Data API",
+        "JavaScript"
+      ],
+      "tags": [
+        "YouTube API",
+        "Debouncing",
+        "API Caching",
+        "Redux State",
+        "Nested Comments",
+        "React 19"
+      ],
+      "highlights": [
+        {
+          "id": "01",
+          "title": "Implemented debounced live search with API caching",
+          "description": "Each unique query is stored in Redux so repeated searches never hit the network twice — cutting unnecessary API calls and keeping the UI instant and smooth."
+        },
+        {
+          "id": "02",
+          "title": "Integrated YouTube Data API",
+          "description": "Fetched real video feeds, trending content, and video metadata — rendering a pixel-faithful home feed, search results page, and video watch page with live data."
+        },
+        {
+          "id": "03",
+          "title": "Built recursive nested comments",
+          "description": "Used a self-referencing component pattern so each comment thread can expand infinitely deep, mirroring YouTube's real comment UX without any third-party library."
+        },
+        {
+          "id": "04",
+          "title": "Managed all app state with Redux Toolkit",
+          "description": "Video data, search cache, and sidebar toggle live in dedicated slices — keeping components stateless, predictable, and easy to test with React Testing Library."
+        }
+      ],
+      "stats": [
+        { "value": "Debounce + Cache", "label": "Zero redundant API calls" },
+        { "value": "React 19", "label": "Latest React version" },
+        { "value": "Recursive UI", "label": "Nested comment threads" }
+      ],
+      "links": {
+        "github": "https://github.com/premrahi/youtube-project",
+        "live": "https://youtube-gulab-jaamun.netlify.app/"
+      },
+      "image":{
+        "path":"youtubeImage"
+      }
+    }
+  ]
+}
