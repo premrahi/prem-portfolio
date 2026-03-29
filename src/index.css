@@ -1,4 +1,6 @@
-  @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
   .particles-bg {
     position: relative;
@@ -62,6 +64,7 @@
   mix-blend-mode: difference;
   
 }
+
   .custom-cursor-text {
   width: 120px;
   height: 120px;

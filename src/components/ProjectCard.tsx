@@ -53,7 +53,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
       {resolvedImage && (
         <div
           className={`fixed inset-0 z-[70] flex items-center justify-center pointer-events-none transition-all duration-300 ${
-            imageHovered ? "opacity-100 scale-100" : "opacity-0 scale-90"
+            imageHovered ? "opacity-100 scale-150" : "opacity-0 scale-90"
           }`}
         >
           <div className="w-[650px] max-w-[90vw] rounded-2xl overflow-hidden shadow-2xl border border-white/20">
