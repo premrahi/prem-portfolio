@@ -3,7 +3,7 @@ import Contact from "./Contact";
 import Home from "./Home";
 import Project from "./Project";
 import SkillSet from "./SkillSet";
-import Footer from "./Footer"
+import Footer from "./Footer";
 
 const Body = () => {
   return (
