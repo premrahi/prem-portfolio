@@ -7,14 +7,24 @@ import Footer from "./Footer";
 
 const Body = () => {
   return (
-    <>
-      <Home />
-      <About />
-      <SkillSet/>
-      <Project />
-      <Contact />
+    <div className="pt-20">
+      <section id="home">
+        <Home />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="skills">
+        <SkillSet />
+      </section>
+      <section id="project">
+        <Project />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
       <Footer />
-    </>
+    </div>
   );
 };
 

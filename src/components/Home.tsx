@@ -1,8 +1,7 @@
 import prem from "../assets/prem.png";
 
-
 const Home = () => {
-   return (
+  return (
     <div id="home" className="min-h-screen text-white flex items-center -my-10">
       <div className="w-3/5 ml-10 px-16 cursor-default select-none my-10">
         <span className="text-orange-600 text-8xl font-semibold">FRONTEND</span>
@@ -16,6 +15,11 @@ const Home = () => {
             responsive web solutions.
           </p>
         </div>
+        <a href="/prem_resume.pdf" download="prem_resume.pdf">
+          <button className="bg-orange-500/60 px-2 py-1 rounded-lg text-black hover:text-white hover:bg-gray-700">
+            get Resume
+          </button>
+        </a>
       </div>
 
       <div className="w-2/5 flex flex-col items-center gap-6">
@@ -38,6 +42,6 @@ const Home = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Home
+export default Home;

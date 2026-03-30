@@ -43,8 +43,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
   return (
     <>
       {/* Backdrop — only when hovering the image */}
-      <div
-        className={`fixed inset-0 z-[60] bg-black/60 backdrop-blur-sm transition-opacity duration-300 pointer-events-none ${
+      <div className={`fixed inset-0 z-[60] bg-black/60 backdrop-blur-sm transition-opacity duration-300 pointer-events-none ${
           imageHovered ? "opacity-100 scale-125" : "opacity-0"
         }`}
       />
@@ -67,7 +66,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
       )}
 
       {/* Card */}
-      <div className="relative z-[50] flex flex-col md:flex-row items-stretch gap-8 hover:bg-orange-800/30 border border-white/10 rounded-2xl p-8 hover:border-orange-500/40 transition-all duration-300 bg-gray-800/30">
+      <div className="relative flex flex-col md:flex-row items-stretch gap-8 hover:bg-orange-800/30 border border-white/10 rounded-2xl p-8 hover:border-orange-500/40 transition-all duration-300 bg-gray-800/30">
         {/* Purple left accent bar */}
         <div className="absolute left-0 top-8 bottom-8 w-[3px] bg-orange-600 rounded-full" />
 
