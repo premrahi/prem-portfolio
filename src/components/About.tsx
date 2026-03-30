@@ -25,7 +25,7 @@ const About = () => {
           <p>A 22 year old frontend developer based in Delhi, India.</p>
           <p>Dedicated to turn ideas into creative solutions</p>
 
-          <p className="my-4 mr-4">
+          <p className="my-4 mr-6">
             My approach focuses on creating scalable, high performing solution
             tailored to both user need and user objective. By prioritizing
             performance, accessibility, and responsiveness, I strive to deliver
@@ -34,7 +34,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="mx-26 text-lg text-neutral-500">
+      <div className="mx-28  text-lg text-neutral-500">
         <p>
           With a strong foundation in Data Structures, Algorithms, and a B.Tech
           in Electronics and communication from MAIT Delhi, I am dedicated to creating
