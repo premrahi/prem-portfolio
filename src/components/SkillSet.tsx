@@ -22,6 +22,8 @@ import vscode from "../assets/vs-code-svgrepo-com.svg";
 import jupyter from "../assets/jupyter-svgrepo-com.svg";
 import npm from "../assets/npm-svgrepo-com.svg";
 import fedora from "../assets/fedora-svgrepo-com.svg";
+import mongo from "../assets/mongo-svgrepo-com.svg"
+import expressjs from "../assets/express-svgrepo-com.svg"
 
 const badgeClass = " px-3 text-white py-2 mx-2 my-2 ";
 
@@ -66,6 +68,9 @@ const SkillSet = () => {
                 <span className={badgeClass}>
                   <img alt="CSS" src={css} className="w-24" /> css
                 </span>
+                <span className={badgeClass}>
+                  <img alt="CSS" src={mongo} className="w-24" /> Mongo DB
+                </span>
               </div>
             </div>
 
@@ -77,7 +82,11 @@ const SkillSet = () => {
               </p>
               <div className="flex text-center flex-wrap gap-2">
                 <span className={badgeClass}>
-                  <img src={react} alt="react" className="w-24" />
+                  <img src={expressjs} alt="react" className="w-24" />
+                  Express.js
+                </span>
+                <span className={badgeClass}>
+                  <img src={react} alt="react" className="mt-3 w-24" />
                   React.js
                 </span>
                 <span className={badgeClass}>
@@ -123,7 +132,7 @@ const SkillSet = () => {
                 </span>
                 <span className={badgeClass}>
                   <img src={redux} alt="redux" className="w-24" />
-                  redux
+                  redux Toolkit
                 </span>
                 <span className={badgeClass}>
                   <img src={npm} alt="npm" className="w-24" />

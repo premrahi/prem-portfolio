@@ -1,22 +1,22 @@
-import prem from "../assets/prem.png";
+import prem from "../assets/prem.jpg";
 
 const Home = () => {
   return (
     <div id="home" className="min-h-screen text-white flex items-center -my-10">
       <div className="w-3/5 ml-10 px-16 cursor-default select-none my-10">
-        <span className="text-orange-600 text-8xl font-semibold">FRONTEND</span>
+        <span className="text-orange-600 text-8xl font-semibold">Full Stack</span>
         <p className="text-slate-300 text-8xl font-semibold ml-8">
           DEVELOP<span className="text-slate-500">ER</span>
         </p>
         <div className="my-6 text-lg text-slate-300 w-4/5">
           <p className="shimmer">
-            Hi! I'm Prem also known as GULAB JAAMUN. A Frontend Developer with
+            Hi! I'm Prem also known as GULAB JAAMUN. A FullStack Developer with
             hands-on experience through building high-performance, scalable, and
             responsive web solutions.
           </p>
         </div>
         <a href="/prem_resume.pdf" download="prem_resume.pdf">
-          <button className="bg-orange-500/60 px-2 py-1 rounded-lg text-black hover:text-white hover:bg-gray-700">
+          <button className="bg-orange-500/60 px-2 py-1 rounded-lg text-black hover:text-white hover:bg-gray-700 hover:text-2xl ">
             get Resume
           </button>
         </a>

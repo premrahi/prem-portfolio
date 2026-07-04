@@ -22,7 +22,7 @@ const About = () => {
           </div>
         </div>
         <div className="col-span-6 mt-12 text-lg shimmer ">
-          <p>A 22 year old frontend developer based in Delhi, India.</p>
+          <p>A 22 year old fullstack developer based in Delhi, India.</p>
           <p>Dedicated to turn ideas into creative solutions</p>
 
           <p className="my-4 mr-6">
@@ -36,7 +36,7 @@ const About = () => {
       </div>
       <div className="mx-28  text-lg text-neutral-500">
         <p>
-          With a strong foundation in Data Structures, Algorithms, and a B.Tech
+          With a strong foundation in Data Structures, Algorithms, MERN and B.Tech
           in Electronics and communication from MAIT Delhi, I am dedicated to creating
           impactful tech solutions and driving continuous innovation.
         </p>
