@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const Project = () => {
   return (
-    <div className="my-24 bg-slate-500/10  mx-20 justify-center p-10 rounded-2xl">
+    <div className="my-24 bg-slate-500/10  lg:mx-20 mx-4 justify-center lg:p-10 p-4 rounded-2xl">
       <span className="text-4xl font-semibold px-10 text-white">
         Project<span className="text-red-700">s</span>
       </span>

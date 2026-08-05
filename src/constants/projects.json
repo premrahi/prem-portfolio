@@ -1,6 +1,62 @@
 {
   "projects": [
     {
+      "title": "picoLink — Full-Stack URL Shortener",
+      "type": "Full-Stack Project",
+      "category": "URL Shortener / Web Application",
+      "deployedOn": "",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Redux Toolkit",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Tailwind CSS"
+      ],
+      "tags": [
+        "Full-Stack",
+        "REST API",
+        "JWT Authentication",
+        "Click Analytics",
+        "MongoDB"
+      ],
+      "highlights": [
+        {
+          "id": "01",
+          "title": "Architected a full-stack link-shortening platform",
+          "description": "Built a React + TypeScript frontend paired with a Node.js/Express REST API backend, generating short codes with nanoid and persisting data in MongoDB via Mongoose."
+        },
+        {
+          "id": "02",
+          "title": "Implemented secure JWT authentication",
+          "description": "Added bcrypt password hashing and cookie-based sessions, enabling secure per-user link management across the platform."
+        },
+        {
+          "id": "03",
+          "title": "Built click analytics from scratch",
+          "description": "Logged timestamped visit history for every shortened link, giving users clear visibility into engagement over time."
+        },
+        {
+          "id": "04",
+          "title": "Designed a responsive UI backed by a real API layer",
+          "description": "Used Redux Toolkit, React Router, and Tailwind CSS for the frontend, integrated with the backend via Axios for a seamless end-to-end experience."
+        }
+      ],
+      "stats": [
+        { "value": "JWT + bcrypt", "label": "Secure authentication" },
+        { "value": "MongoDB", "label": "Mongoose-backed persistence" },
+        { "value": "Click Analytics", "label": "Per-link visit tracking" }
+      ],
+      "links": {
+        "github": "https://github.com/premrahi/picoLink",
+        "live": "https://picolink.online/"
+      },
+      "image": {
+        "path": "picoLinkImage"
+      }
+    },
+    {
       "title": "Gulab Jaamun — Food Ordering App",
       "type": "Frontend Project",
       "category": "Single Page Application",
@@ -53,9 +109,8 @@
         "live": "https://gulab-jaamun-foods.netlify.app/"
       },
       "image": {
-        "path":"gulabjaamunImage"
+        "path": "gulabjaamunImage"
       }
-
     },
     {
       "title": "NetflixGPT",
@@ -110,64 +165,8 @@
         "github": "https://github.com/premrahi/NetflixGPT",
         "live": "https://netflix-gpt-gulabjaamun.web.app/"
       },
-      "image":{
-        "path" : "netflixImage"
-      }
-    },
-    {
-      "title": "YouTube Clone",
-      "type": "Frontend Project",
-      "category": "Full-featured Web Application",
-      "deployedOn": "",
-      "techStack": [
-        "React 19",
-        "Redux Toolkit",
-        "React Router DOM",
-        "Tailwind CSS",
-        "YouTube Data API",
-        "JavaScript"
-      ],
-      "tags": [
-        "YouTube API",
-        "Debouncing",
-        "API Caching",
-        "Redux State",
-        "Nested Comments",
-        "React 19"
-      ],
-      "highlights": [
-        {
-          "id": "01",
-          "title": "Implemented debounced live search with API caching",
-          "description": "Each unique query is stored in Redux so repeated searches never hit the network twice — cutting unnecessary API calls and keeping the UI instant and smooth."
-        },
-        {
-          "id": "02",
-          "title": "Integrated YouTube Data API",
-          "description": "Fetched real video feeds, trending content, and video metadata — rendering a pixel-faithful home feed, search results page, and video watch page with live data."
-        },
-        {
-          "id": "03",
-          "title": "Built recursive nested comments",
-          "description": "Used a self-referencing component pattern so each comment thread can expand infinitely deep, mirroring YouTube's real comment UX without any third-party library."
-        },
-        {
-          "id": "04",
-          "title": "Managed all app state with Redux Toolkit",
-          "description": "Video data, search cache, and sidebar toggle live in dedicated slices — keeping components stateless, predictable, and easy to test with React Testing Library."
-        }
-      ],
-      "stats": [
-        { "value": "Debounce + Cache", "label": "Zero redundant API calls" },
-        { "value": "React 19", "label": "Latest React version" },
-        { "value": "Recursive UI", "label": "Nested comment threads" }
-      ],
-      "links": {
-        "github": "https://github.com/premrahi/youtube-project",
-        "live": "https://youtube-gulab-jaamun.netlify.app/"
-      },
-      "image":{
-        "path":"youtubeImage"
+      "image": {
+        "path": "netflixImage"
       }
     }
   ]
